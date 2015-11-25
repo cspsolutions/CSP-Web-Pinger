@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Settings" targetNamespace="http://tempuri.org/Settings.xsd" xmlns:mstns="http://tempuri.org/Settings.xsd" xmlns="http://tempuri.org/Settings.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Settings" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Settings" msprop:Generator_UserDSName="Settings">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Websites" msprop:Generator_TableClassName="WebsitesDataTable" msprop:Generator_TableVarName="tableWebsites" msprop:Generator_TablePropName="Websites" msprop:Generator_RowDeletingName="WebsitesRowDeleting" msprop:Generator_RowChangingName="WebsitesRowChanging" msprop:Generator_RowEvHandlerName="WebsitesRowChangeEventHandler" msprop:Generator_RowDeletedName="WebsitesRowDeleted" msprop:Generator_UserTableName="Websites" msprop:Generator_RowChangedName="WebsitesRowChanged" msprop:Generator_RowEvArgName="WebsitesRowChangeEvent" msprop:Generator_RowClassName="WebsitesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Url" msprop:Generator_ColumnVarNameInTable="columnUrl" msprop:Generator_ColumnPropNameInRow="Url" msprop:Generator_ColumnPropNameInTable="UrlColumn" msprop:Generator_UserColumnName="Url" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
