@@ -1,5 +1,5 @@
-# CSP-Web-Pinger-Tool
-CSP Web Pinger, a windows client you can run in your company to ping your website(s) to stay active &amp; Responsive
+# CSP Web Pinger 
+CSP Web Pinger is a windows client you can run in your company to ping your website(s) to stay active &amp; Responsive
 
 We want to add features if website is down to alert user, that way companies do not have to pay for web pingers 
 for simple features, that one can write in few hours.
